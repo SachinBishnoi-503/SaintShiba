@@ -34,6 +34,7 @@
     --color-black2: #0C0B0B;
     --color-bulrwhite: #B6B6B6;
     --color-grey: #1D1A1A;
+    --color-white2: #B9B9B9;
 }
 
 .py-35 {
@@ -312,7 +313,7 @@
     font-weight: 600;
     line-height: 61.44px;
     text-align: left;
-    color:var(--color-white);
+    color: var(--color-white);
 }
 
 .section3-paragraph {
@@ -332,6 +333,7 @@
     gap: 16px;
     margin-top: 48px;
 }
+
 .box1 {
     width: 100%;
     height: 92px;
@@ -346,7 +348,7 @@
     height: 71px;
     top: 10px;
     left: 13px;
-    background:var(--color-white);
+    background: var(--color-white);
     border-radius: 46px;
     position: relative;
     cursor: pointer;
@@ -365,6 +367,7 @@
     color: black;
     margin: 0%;
 }
+
 .box2 {
     width: 100%;
     height: 92px;
@@ -373,6 +376,7 @@
     color: var(--color-black);
     cursor: pointer;
 }
+
 .whitecircle {
     width: 71px;
     height: 71px;
@@ -383,12 +387,14 @@
     position: relative;
     background: var(--color-white);
 }
-.box2:hover .whitecircle{
+
+.box2:hover .whitecircle {
     background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
 }
+
 .two {
     font-family: 'Poppins', sans-serif;
-    font-size:var(--font-size-22);
+    font-size: var(--font-size-22);
     font-weight: 600;
     line-height: 33px;
     text-align: center;
@@ -402,7 +408,7 @@
     font-weight: 600;
     line-height: 33px;
     text-align: left;
-    color:var(--color-white);
+    color: var(--color-white);
     padding-top: 13px;
 }
 
@@ -420,7 +426,7 @@
     font-weight: 400;
     line-height: 32.4px;
     text-align: left;
-    color:var(--color-white);
+    color: var(--color-white);
     opacity: 70%;
     padding-bottom: 14px;
 }
@@ -449,6 +455,124 @@
     height: 80%;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.tokenomics {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-48);
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.pt-62 {
+    padding-top: 62px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.box-1 {
+    background: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    border-radius: 10px;
+    border: 1px solid #474646;
+    transition: all 0.5s linear;
+    padding: 20px;
+}
+
+.box-1:hover {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+}
+
+.table-box {
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.table-1 {
+    width: 1320px;
+    position: relative;
+    left: 0%;
+}
+
+.box2-number {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.1) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    border: 1px solid #474646;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+
+
+table tr td,
+th {
+    width: 16.66%;
+    height: 68px;
+}
+
+.heading-box {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-22);
+    font-weight: 400;
+    line-height: 33px;
+    color: var(--color-white);
+    text-align: left;
+}
+
+.heading-box-paragraph {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: 400;
+    line-height: 25.2px;
+    color: var(--color-white2);
+    text-align: left;
+}
+
+.table-number-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 32.4px;
+    color: var(--color-white);
+    text-align: left;
+}
+
+.table-number {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    font-weight: 400;
+    line-height: 32.4px;
+    color: var(--color-white2);
+    text-align: left;
+}
+
+.table-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-22);
+    font-weight: 600;
+    line-height: 33px;
+    color: var(--color-white);
+}
+
+.box-number {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    color: #FFFFFF;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.box-number:hover {
+    color: #F06500;
+}
+
+.table-heading{
+    background-color: var(--color-black2);
 }
 
 @media (max-width:992px) {
