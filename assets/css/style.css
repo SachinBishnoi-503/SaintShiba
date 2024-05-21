@@ -622,6 +622,60 @@ th {
     padding-left: 95px;
 }
 
+.accordion-item {
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+    border: 1px solid;
+    border: 2px solid #404040;
+}
+
+.accordion-flush>.accordion-item:nth-child(odd) {
+    border: 2px solid #404040;
+    border-radius: 10px;
+}
+
+.accordion-flush>.accordion-item:nth-child(even) {
+    border: 2px solid #404040;
+    border-radius: 10px;
+}
+
+.accordion {
+    --bs-accordion-bg: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+}
+
+.accordion-button {
+    color:var(--color-white);
+    font-family: "Poppins",sans-serif;
+    font-size: var(--font-size-22);
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+}
+.accordian-paragraph{
+        font-family: "Poppins",sans-serif;
+        font-size: var(--font-size-18);
+        color: var(--color-white2);
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: left;
+}
+
+.accordion-button::after {
+    background-image: url(../images/svg/accordian-btn-down.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/svg/accordian-btn-down.svg);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color:var(--color-white);
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
 @media (min-width:992px) {
     .timeline::after {
         content: '';
