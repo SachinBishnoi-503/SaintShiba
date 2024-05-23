@@ -16,13 +16,13 @@
     --font-size-36: 36px;
     --font-size-48: 48px;
     --font-size-96: 96px;
-    --font-size-: px;
-    --font-size-: px;
-    --font-size-: px;
-    --font-size-: px;
-    --font-size-: px;
-    --font-size-: px;
-    --font-size-: px;
+    --font-size-40: 40px;
+    --font-size-19: 19px;
+    --font-size-12: 12px;
+    --font-size-8: 8px;
+    --font-size-10: 10px;
+    --font-size-11: 11px;
+    --font-size-43: 43px;
     --font-size-: px;
     --font-size-: px;
     --font-size-: px;
@@ -241,15 +241,6 @@
     text-align: left;
 }
 
-.section3-paragraph {
-    font-family: "Poppins", sans-serif;
-    color: var(--color-bulrwhite);
-    font-size: var(--font-size-18);
-    font-weight: 400;
-    line-height: 32.4px;
-    text-align: left;
-}
-
 .pt-89 {
     padding-top: 89px;
 }
@@ -386,26 +377,8 @@
     width: 100%;
 }
 
-
-.mt-110 {
-    margin-top: 110px;
-}
-
-.ml-55 {
-    margin-left: 55px;
-}
-
 .position-rel {
     position: relative;
-}
-
-.over-flow-image {
-    position: absolute;
-    width: 50%;
-    right: 0%;
-    height: 80%;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .tokenomics {
@@ -441,6 +414,10 @@
 .table-box {
     overflow-x: scroll;
     padding-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .table-1 {
@@ -643,20 +620,21 @@ th {
 }
 
 .accordion-button {
-    color:var(--color-white);
-    font-family: "Poppins",sans-serif;
+    color: var(--color-white);
+    font-family: "Poppins", sans-serif;
     font-size: var(--font-size-22);
     font-weight: 600;
     line-height: 33px;
     text-align: left;
 }
-.accordian-paragraph{
-        font-family: "Poppins",sans-serif;
-        font-size: var(--font-size-18);
-        color: var(--color-white2);
-        font-weight: 400;
-        line-height: 32.4px;
-        text-align: left;
+
+.accordian-paragraph {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    color: var(--color-white2);
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
 }
 
 .accordion-button::after {
@@ -669,14 +647,56 @@ th {
 
 .accordion-button:not(.collapsed) {
     background-color: transparent;
-    color:var(--color-white);
+    color: var(--color-white);
     box-shadow: none;
 }
 
 .accordion-button:focus {
     box-shadow: none;
 }
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.over-flow-image {
+    width: 100%;
+}
+
+.mt-80 {
+    margin-top: 60px;
+}
+
+@media (max-width:1200px) {
+    .parent-box {
+        background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+        border: 1px solid #523235;
+        border-radius: 10px;
+        top: -42px;
+        padding: 24px;
+        backdrop-filter: blur(35px);
+    }
+
+}
+
 @media (min-width:992px) {
+    .mt-110 {
+        margin-top: 110px;
+    }
+
+    .ml-55 {
+        margin-left: 55px;
+    }
+
+    .over-flow-image {
+        position: absolute;
+        width: 50%;
+        right: 0%;
+        height: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
     .timeline::after {
         content: '';
         position: absolute;
@@ -774,7 +794,77 @@ th {
     .show {
         left: 0;
     }
-    .lg-align-start{
+
+    .lg-align-start {
         text-align: start;
+    }
+
+}
+
+@media (max-width:768px) {
+    .section1-heading {
+        font-size: var(--font-size-43);
+        line-height: 60.52px;
+    }
+
+    .lorem-paragraph-section1 {
+        font-size: var(--font-size-18);
+        line-height: 32px;
+    }
+
+    .section2-heading {
+        font-size: var(--font-size-36);
+        line-height: 52.44px;
+    }
+
+    .section3-paragraph {
+        font-size: var(--font-size-14);
+        line-height: 30.4px;
+    }
+}
+
+@media (max-width:567px) {
+    .section1-heading {
+        font-size: var(--font-size-40);
+        line-height: 60.52px;
+    }
+
+    .lorem-paragraph-section1 {
+        font-size: var(--font-size-19);
+        line-height: 32px;
+    }
+
+    .section2-heading {
+        font-size: var(--font-size-22);
+        line-height: 52.44px;
+    }
+
+    .section3-paragraph {
+        font-size: var(--font-size-12);
+        line-height: 30.4px;
+    }
+
+    .section3-crashead {
+        font-size: var(--font-size-12);
+        line-height: 33px;
+    }
+
+    .section3-ammethead {
+        font-size: var(--font-size-8);
+        line-height: 32.4px;
+    }
+
+    .tokenomics {
+        font-size: var(--font-size-40);
+        line-height: 61.44px;
+    }
+
+    .accordian-paragraph {
+        font-size: var(--font-size-10);
+        line-height: 30.4px;
+    }
+
+    .accordion-button {
+        font-size: var(--font-size-11);
     }
 }
