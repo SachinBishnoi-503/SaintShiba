@@ -19,11 +19,11 @@
                         <h4 class="saint-font">Saint<span class="shiba-font">Shiba</span></h4>
                     </div>
                     <div class="d-flex align-items-center gap-32 navbar-iteams ">
-                        <a class="nav-home" href="">Home</a>
-                        <a class="nav-home" href="">About</a>
-                        <a class="nav-home" href="">Tokenomics</a>
-                        <a class="nav-home" href="">How to buy</a>
-                        <a class="nav-home" href="">FAQ</a>
+                        <a class="nav-home" href="#HOME">Home</a>
+                        <a class="nav-home" href="#roadmap">About</a>
+                        <a class="nav-home" href="#takenomics">Tokenomics</a>
+                        <a class="nav-home" href="#how-to-buy">How to buy</a>
+                        <a class="nav-home" href="#FAQ">FAQ</a>
                         <button class="btn-connect ">Connect Wallet</button>
                     </div>
                     <div class="menubar">
@@ -37,7 +37,7 @@
     </header>
     <main class="overflow-hidden bg-black">
         <!-- ................................section-1.................. -->
-        <section class="section1-background layer d-flex align-items-end position-relative">
+        <section class="section1-background layer d-flex align-items-end position-relative" id="Home">
             <div class="container position-relative z-1">
                 <div class="row">
                     <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center ">
@@ -121,7 +121,7 @@
             </div>
         </section>
         <!-- ..........................section-3............ -->
-        <section class="position-relative d-flex align-items-center min-vh-100 section3-background">
+        <section class="position-relative d-flex align-items-center min-vh-100 section3-background" id="how-to-buy">
             <div class="container d-flex justify-content-center">
                 <div class="row">
                     <div class="col-12 col-lg-6 d-flex align-items-center">
@@ -187,7 +187,7 @@
             </div>
         </section>
         <!-- ......................section-4-------------------- -->
-        <section class="bg-black">
+        <section class="bg-black" id="takenomics">
             <div class="container">
                 <div class="">
                     <h4 class="tokenomics pt-62">Tokenomics</h4>
@@ -321,7 +321,7 @@
             </div>
         </section>
         <!-- ...............................section-5................... -->
-        <section class="section5-background py-4 position-relative">
+        <section class="section5-background py-4 position-relative" id="roadmap">
             <div class="container">
                 <h2 class="text-center mt-5 mb-3 section5-heading">Roadmap</h2>
                 <div class="roadmap">
@@ -377,8 +377,11 @@
             <img src="./assets/images/section-5-image-orange2.png" alt="no-image" class="top-0 end-0 position-absolute">
         </section>
         <!-- ............................section-6------------------>
-        <section class="py-5 position-relative">
+        <section class="py-5 position-relative" id="FAQ">
             <div class="container my-5 pb-5 position-relative z-3 ">
+                <div class="d-flex align-items-center justify-content-center pb-32">
+                    <h2 class="section6-heading">FAQ</h2>
+                </div>
                 <div class="accordion accordion-flush mb-5 pb-5" id="accordionFlushExample">
                     <div class="accordion-item">
                         <div class="accordion-header" id="flush-headingOne">
@@ -514,12 +517,13 @@
 
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-<script src="./assets/js/app.js"></script>
+
 
 
 </html>

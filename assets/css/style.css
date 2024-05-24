@@ -666,6 +666,17 @@ th {
 .mt-80 {
     margin-top: 60px;
 }
+.pb-32{
+    padding-bottom: 32px;
+}
+.section6-heading{
+        font-family: "Poppins",sans-serif;
+        font-size: var(--font-size-48);
+        font-weight: 600;
+        line-height: 61.44px;
+        text-align: center;
+        color: var(--color-white);
+}
 
 @media (max-width:1200px) {
     .parent-box {
