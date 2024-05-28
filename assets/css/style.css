@@ -23,7 +23,7 @@
     --font-size-10: 10px;
     --font-size-11: 11px;
     --font-size-43: 43px;
-    --font-size-: px;
+    --font-size-15: 15px;
     --font-size-: px;
     --font-size-: px;
 
@@ -37,9 +37,9 @@
     --color-white2: #B9B9B9;
 }
 
-.py-35 {
-    padding-top: 35px;
-    padding-bottom: 35px;
+.py-23 {
+    padding-top: 23px;
+    padding-bottom: 23px;
 }
 
 .navbar-background {
@@ -112,6 +112,11 @@
     border-radius: 33px;
     background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
     border: none;
+}
+
+.section1-btn-connect:hover {
+    background: var(--color-white);
+    color: var(--color-orange);
 }
 
 .section1-heading {
@@ -216,6 +221,11 @@
     background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
     border-radius: 23px;
     border: none;
+}
+
+.btn-learn-more:hover {
+    background: var(--color-white);
+    color: var(--color-orange);
 }
 
 .glow {
@@ -503,10 +513,6 @@ th {
     background-color: var(--color-black2);
 }
 
-.section5-background {
-    background: var(--color-black2);
-}
-
 .section5-heading {
     font-family: "Poppins", sans-serif;
     color: var(--color-white);
@@ -666,16 +672,18 @@ th {
 .mt-80 {
     margin-top: 60px;
 }
-.pb-32{
+
+.pb-32 {
     padding-bottom: 32px;
 }
-.section6-heading{
-        font-family: "Poppins",sans-serif;
-        font-size: var(--font-size-48);
-        font-weight: 600;
-        line-height: 61.44px;
-        text-align: center;
-        color: var(--color-white);
+
+.section6-heading {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-48);
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: center;
+    color: var(--color-white);
 }
 
 @media (max-width:1200px) {
@@ -769,6 +777,7 @@ th {
         padding-left: 0px;
     }
 
+
 }
 
 @media (max-width:992px) {
@@ -779,6 +788,17 @@ th {
         flex-direction: column;
         justify-content: space-evenly;
         z-index: 100;
+    }
+
+    .section3-ammethead {
+        font-family: 'Poppins', sans-serif;
+        font-size: var(--font-size-15);
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: left;
+        color: var(--color-white);
+        opacity: 70%;
+        padding-bottom: 14px;
     }
 
     .menubar span {
@@ -808,6 +828,10 @@ th {
 
     .lg-align-start {
         text-align: start;
+    }
+
+    .overflow-lg-hidden {
+        overflow: hidden;
     }
 
 }
@@ -878,7 +902,16 @@ th {
     .accordion-button {
         font-size: var(--font-size-11);
     }
-    .sm-mt-7{
+
+    .sm-mt-7 {
         margin-top: 7px;
     }
+}
+
+@media (min-width:1200px) {
+    .table-box {
+        overflow-x: visible;
+        padding-bottom: 10px;
+    }
+
 }
